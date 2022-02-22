@@ -1,0 +1,27 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "next build",
+    "start": "next start",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "@ant-design/icons": "4.2.1",
+    "@next/bundle-analyzer": "^9.1.4",
+    "antd": "4.3.0",
+    "axios": "^0.26.0",
+    "body-parser": "^1.19.2",
+    "cross-env": "^7.0.2",
+    "dayjs": "1.8.28",
+    "esm": "^3.2.25",
+    "express": "^4.17.3",
+    "next": "latest",
+    "postcss-preset-env": "^6.7.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "browser": {
+    "fs": false,
+    "path": false
+  }
+}
